@@ -35,14 +35,6 @@
       "logoURI": "https://raw.githubusercontent.com/Bscex/bscex-token-list/master/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
-      "name": "Tether USD",
-      "address": "0x55d398326f99059fF775485246999027B3197955",
-      "symbol": "USDT",
-      "decimals": 18,
-      "chainId": 56,
-      "logoURI": "https://raw.githubusercontent.com/Bscex/bscex-token-list/master/images/0x55d398326f99059fF775485246999027B3197955.png"
-    },
-    {
       "name": "My Happy Doge",
       "address": "0x55d398326f99059fF775485246999027B3197955",
       "symbol": "MHD",
