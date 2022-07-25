@@ -37,8 +37,8 @@
     {
       "name": "My Happy Doge",
       "address": "0xa34c2f7de1ce25073f3e7af3486f77b69f9a554c",
-      "symbol": "tMHD",
-      "decimals": 8,
+      "symbol": "MHD",
+      "decimals": 18,
       "chainId": 56,
       "logoURI": "https://raw.githubusercontent.com/Ad-Market/mhd/master/media/favicon-mhd.png"
     },
