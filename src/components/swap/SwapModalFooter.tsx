@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@pancakeswap/sdk'
+import { Trade, TradeType } from '@ pancakeswap/pancake-swap-sdk'
 import React, { useContext, useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'
@@ -155,3 +155,6 @@ export default function SwapModalFooter({
     </>
   )
 }
+
+
+
