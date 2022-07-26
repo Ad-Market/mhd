@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
 import { Trade, TradeType } from '@bscex/sdk'
-import React, { useContext, useMemo, useState } from 'react'
+import React, { useContext, useMemo, useState, Component } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'
 import { ThemeContext } from 'styled-components'
