@@ -44,7 +44,7 @@ export default function SwapModalFooter({
   const severity = warningSeverity(priceImpactWithoutFee)
 
   // const [amountBurn, setAmountBurn] = useState(0)
-  // const amountBurn = 0
+  const amountBurn = 0
   // if (chainId && library && account) {
   //   const router = getRouterContract(chainId, library, account)
   //   const method = router.getAmountBurnTokenFee
@@ -54,7 +54,7 @@ export default function SwapModalFooter({
   //     const decimals = trade?.route?.path[0]?.decimals
   //     setAmountBurn(Number(response) / Number(`1e${decimals}`))
   //   })
-  }
+  // }
 
   return (
     <>
