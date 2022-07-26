@@ -1,4 +1,5 @@
 import { Trade, TradeType } from '@bscex/sdk'
+// tslint:disable-next-line:no-unused-variable
 import React, { useContext, useMemo, useState, Component } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'
