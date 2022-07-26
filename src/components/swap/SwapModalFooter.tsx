@@ -45,18 +45,16 @@ export default function SwapModalFooter({
 
   // const [amountBurn, setAmountBurn] = useState(0)
   const amountBurn = 0
-   if (chainId && library && account) {
-     const router = getRouterContract(chainId, library, account)
-     const method = router.getAmountBurnTokenFee
+  if (chainId && library && account) {
+    const router = getRouterContract(chainId, library, account)
+    const method = router.getAmountBurnTokenFee
 
-     const args = [trade?.route?.path[0]?.address, trade.inputAmount.raw.toString()]
-     method(...args).then((response: number) => {
-       const decimals = trade?.route?.path[0]?.decimals
-       setAmountBurn(Number(response) / Number(`1e${decimals}`))
-     })
-   }
-
-
+    const args = [trade?.route?.path[0]?.address, trade.inputAmount.raw.toString()]
+    method(...args).then((response: number) => {
+      const decimals = trade?.route?.path[0]?.decimals
+      setAmountBurn(Number(response) / Number(`1e${decimals}`))
+    })
+  }
 
   return (
     <>
