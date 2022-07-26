@@ -152,7 +152,7 @@ export default function SwapModalFooter({
 
         {swapErrorMessage ? <SwapCallbackError error={swapErrorMessage} /> : null}
       </AutoRow>
-
+      <>
       <AutoRow>
         <iframe
           id="tradingview_25ca0"
@@ -166,6 +166,7 @@ export default function SwapModalFooter({
           frameBorder="0"
         ></iframe>
       </AutoRow>
+      </>
     </>
   )
 }
