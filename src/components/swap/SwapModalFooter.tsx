@@ -153,19 +153,19 @@ export default function SwapModalFooter({
         {swapErrorMessage ? <SwapCallbackError error={swapErrorMessage} /> : null}
       </AutoRow>
       <>
-      <AutoRow>
-        <iframe
-          id="tradingview_25ca0"
-          name="tradingview_25ca0"
-          title="Financial Chart"
-          allowtransparency="true"
-          scrolling="no"
-          allowFullScreen=""
-          style="display: block; width: 100%; height: 1009px;"
-          src="https://dextools.io/app/assets/vendors/charting_library/en-tv-chart.7a4f9e33.html#symbol=tMHD%2FUSD%20-%20PAN&amp;interval=1&amp;widgetbar=%7B%22details%22%3Afalse%2C%22watchlist%22%3Afalse%2C%22watchlist_settings%22%3A%7B%22default_symbols%22%3A%5B%5D%7D%7D&amp;timeFrames=%5B%7B%22text%22%3A%225y%22%2C%22resolution%22%3A%221W%22%7D%2C%7B%22text%22%3A%221y%22%2C%22resolution%22%3A%221W%22%7D%2C%7B%22text%22%3A%226m%22%2C%22resolution%22%3A%22120%22%7D%2C%7B%22text%22%3A%223m%22%2C%22resolution%22%3A%2260%22%7D%2C%7B%22text%22%3A%221m%22%2C%22resolution%22%3A%2230%22%7D%2C%7B%22text%22%3A%225d%22%2C%22resolution%22%3A%225%22%7D%2C%7B%22text%22%3A%221d%22%2C%22resolution%22%3A%221%22%7D%5D&amp;locale=en&amp;uid=tradingview_25ca0&amp;clientId=0x6eba6081eba26667ce0a96a070a78618d4d8bbfd-bnb&amp;userId=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0IjoiVTJGc2RHVmtYMSs0Y0J6ZkFGdUR5NzFhSDFhYWpKUVZjQlJZYW1RVlVmcTNCcjEySy9LMjU4OUpjMG1jUEZMMXp2Rm5Tc0cwM2FJakpjVVQ4Ly8xSy9URUY5dkEvWHNUL3pna3o4MnBDOHRFbmkyZVNid1F0ZUNLaFBlelIxWVErNTRoaXF2T0o5SWduVG1BSGlOVFFRcjF2dXhEYkFDcWV2cjQ2SXRqTHd5QXlSYU5hSnZYMk9tTkQ4dXpmSlgvcS9wcUFaZXhNbjRLbWpURnhRazdiWnpNUE1FUUZoTFJrMWVjQXFPY3FEb1B5ZTVLV1V0VXUwOGp3aXd4MXlvQlEvMStySTZJVy9KZGdwdVp1U21GRUxoZEduY3Y3Si9zTHhuY3V0RXowd0ZqNVpFRzVNWWdHK21jRkdMODV0Tmlyc0hna0Y1cmwvZXlyR0ZTTzh5S29RPT0iLCJpYXQiOjE2NTg4MjM0MjMsImV4cCI6MTY1ODgyMzgyM30.CgrWDUK8zE4lheOzj4AvXFlMlp8EGUxk38DIR9S0cAQ&amp;chartsStorageVer=1&amp;customCSS=css%2Fcustom_dext.css%3F2.20.0&amp;debug=false&amp;timezone=Europe%2FRome&amp;theme=Light"
-          frameBorder="0"
-        ></iframe>
-      </AutoRow>
+        <AutoRow>
+          <iframe
+            id="tradingview_25ca0"
+            name="tradingview_25ca0"
+            title="Financial Chart"
+            allowtransparency="true"
+            scrolling="no"
+            allowFullScreen=""
+            style="display: block; width: 100%; height: 1009px;"
+            src="https://dextools.io/app/assets/vendors/charting_library/en-tv-chart.7a4f9e33.html#symbol=tMHD%2FUSD%20-%20PAN&amp;interval=1&amp;widgetbar=%7B%22details%22%3Afalse%2C%22watchlist%22%3Afalse%2C%22watchlist_settings%22%3A%7B%22default_symbols%22%3A%5B%5D%7D%7D&amp;timeFrames=%5B%7B%22text%22%3A%225y%22%2C%22resolution%22%3A%221W%22%7D%2C%7B%22text%22%3A%221y%22%2C%22resolution%22%3A%221W%22%7D%2C%7B%22text%22%3A%226m%22%2C%22resolution%22%3A%22120%22%7D%2C%7B%22text%22%3A%223m%22%2C%22resolution%22%3A%2260%22%7D%2C%7B%22text%22%3A%221m%22%2C%22resolution%22%3A%2230%22%7D%2C%7B%22text%22%3A%225d%22%2C%22resolution%22%3A%225%22%7D%2C%7B%22text%22%3A%221d%22%2C%22resolution%22%3A%221%22%7D%5D&amp;locale=en&amp;uid=tradingview_25ca0&amp;clientId=0x6eba6081eba26667ce0a96a070a78618d4d8bbfd-bnb&amp;userId=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0IjoiVTJGc2RHVmtYMSs0Y0J6ZkFGdUR5NzFhSDFhYWpKUVZjQlJZYW1RVlVmcTNCcjEySy9LMjU4OUpjMG1jUEZMMXp2Rm5Tc0cwM2FJakpjVVQ4Ly8xSy9URUY5dkEvWHNUL3pna3o4MnBDOHRFbmkyZVNid1F0ZUNLaFBlelIxWVErNTRoaXF2T0o5SWduVG1BSGlOVFFRcjF2dXhEYkFDcWV2cjQ2SXRqTHd5QXlSYU5hSnZYMk9tTkQ4dXpmSlgvcS9wcUFaZXhNbjRLbWpURnhRazdiWnpNUE1FUUZoTFJrMWVjQXFPY3FEb1B5ZTVLV1V0VXUwOGp3aXd4MXlvQlEvMStySTZJVy9KZGdwdVp1U21GRUxoZEduY3Y3Si9zTHhuY3V0RXowd0ZqNVpFRzVNWWdHK21jRkdMODV0Tmlyc0hna0Y1cmwvZXlyR0ZTTzh5S29RPT0iLCJpYXQiOjE2NTg4MjM0MjMsImV4cCI6MTY1ODgyMzgyM30.CgrWDUK8zE4lheOzj4AvXFlMlp8EGUxk38DIR9S0cAQ&amp;chartsStorageVer=1&amp;customCSS=css%2Fcustom_dext.css%3F2.20.0&amp;debug=false&amp;timezone=Europe%2FRome&amp;theme=Light"
+            frameBorder="0"
+          ></iframe>
+        </AutoRow>
       </>
     </>
   )
