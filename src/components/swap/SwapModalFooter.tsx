@@ -152,7 +152,6 @@ export default function SwapModalFooter({
 
         {swapErrorMessage ? <SwapCallbackError error={swapErrorMessage} /> : null}
       </AutoRow>
-      
     </>
   )
 }
