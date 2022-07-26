@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@ pancakeswap/pancake-swap-sdk'
+import { Trade, TradeType } from '@pancakeswap/pancake-swap-sdk'
 import React, { useContext, useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'
@@ -55,6 +55,33 @@ export default function SwapModalFooter({
   //     setAmountBurn(Number(response) / Number(`1e${decimals}`))
   //   })
   // }
+  
+  
+  
+  const Component = React.createClass({
+  iframe: function () {
+    return {
+      __html: this.props.iframe
+    }
+  },
+
+  render: function() {
+    return (
+      <div>
+        <div dangerouslySetInnerHTML={ this.iframe() } />
+      </div>
+    );
+  }
+});
+
+const iframe = '<iframe src="https://dextools.io/app/assets/vendors/charting_library/en-tv-chart.7a4f9e33.html#symbol=tMHD%2FUSD%20-%20PAN&amp;interval=1&amp;widgetbar=%7B%22details%22%3Afalse%2C%22watchlist%22%3Afalse%2C%22watchlist_settings%22%3A%7B%22default_symbols%22%3A%5B%5D%7D%7D&amp;timeFrames=%5B%7B%22text%22%3A%225y%22%2C%22resolution%22%3A%221W%22%7D%2C%7B%22text%22%3A%221y%22%2C%22resolution%22%3A%221W%22%7D%2C%7B%22text%22%3A%226m%22%2C%22resolution%22%3A%22120%22%7D%2C%7B%22text%22%3A%223m%22%2C%22resolution%22%3A%2260%22%7D%2C%7B%22text%22%3A%221m%22%2C%22resolution%22%3A%2230%22%7D%2C%7B%22text%22%3A%225d%22%2C%22resolution%22%3A%225%22%7D%2C%7B%22text%22%3A%221d%22%2C%22resolution%22%3A%221%22%7D%5D&amp;locale=en&amp;uid=tradingview_c8126&amp;clientId=0x6eba6081eba26667ce0a96a070a78618d4d8bbfd-bnb&amp;userId=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0IjoiVTJGc2RHVmtYMStvNnA0S2s5VFVRa3QzZUZuZVFOdW1TT2dOUUswM2tQUllaQ01RWDg2YWJtVkV0YWRJS044S2NEYi82NUhZb3F2dExaMWlNZGhXWVU1YjFCVXZjRVdjV2ZDOFgrSDJ0QVQycnhvOU1hSTVndzZhQkxHMXE3d09DS0l1WEJDYjVWalpkc3lqQmVheWcyMzZIUHJraFkyd1Q4Tkw0TnVTSGcvRTFjZnBENS8xQmV2OEwxTkpZV0daOGVVaGNxZXI2VXc1VEFUOUhBaHR1RUFXbCtWY3RkZGlJK3owdkxaZ2tSK3V1L1FlQWxXYU1rL0tmbkhYVmJwc2g4bGh3VDlIQmR5TGFJbTFvQlFDMHgrVTRxd1lPenhwT0tjQ3k0b2dIRzM4VmFudWtpUjE1dGdPcDZ6dUZhTlRDUDFrKzVIdEdKMjRBdWpJOHNlRlhRPT0iLCJpYXQiOjE2NTg4MjU3NzUsImV4cCI6MTY1ODgyNjE3NX0.l2j4xdaMSVXDsaBxvExxH5PnEAiPqD3hWxrYNC4S4rc&amp;chartsStorageVer=1&amp;customCSS=css%2Fcustom_dext.css%3F2.20.0&amp;debug=false&amp;timezone=Europe%2FRome&amp;theme=Light" width="540" height="450"></iframe>'; 
+
+ReactDOM.render(
+  <Component iframe={iframe} />,
+  document.getElementById('container')
+);
+  
+  
 
   return (
     <>
@@ -152,6 +179,14 @@ export default function SwapModalFooter({
 
         {swapErrorMessage ? <SwapCallbackError error={swapErrorMessage} /> : null}
       </AutoRow>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
+      <div id="container"></div>
+      
     </>
   )
 }
+
+
+
