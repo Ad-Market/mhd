@@ -489,9 +489,6 @@ export default function Swap() {
             ) : null}
           </BottomGrouping>
         </Wrapper>
-      </AppBody>
-
-      <AppBody>Let's make this a new feature on MHD Project..!</AppBody>
 
       <AdvancedSwapDetailsDropdown trade={trade} />
     </>
