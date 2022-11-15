@@ -36,11 +36,11 @@
     },
     {
       "name": "My Happy Doge",
-      "address": "0x29db8abd21f2ffdf5da9b2e4bbdd70f8b47b15f2",
+      "address": "0x7E1Eb0125B56B9705fF960064DeeBb322a9241F5",
       "symbol": "MHD",
-      "decimals": 8,
+      "decimals": 9,
       "chainId": 56,
-      "logoURI": "https://raw.githubusercontent.com/Ad-Market/mhd/master/media/favicon-mhd.png"
+      "logoURI": "https://raw.githubusercontent.com/Ad-Market/mhd/master/media/Logo%20MHD%20Token.jpeg"
     },
     {
       "name": "Wrapped BNB",
