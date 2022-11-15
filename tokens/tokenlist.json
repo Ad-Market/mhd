@@ -35,14 +35,6 @@
       "logoURI": "https://raw.githubusercontent.com/Bscex/bscex-token-list/master/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
-      "name": "My Happy Doge",
-      "address": "0x7E1Eb0125B56B9705fF960064DeeBb322a9241F5",
-      "symbol": "MHD",
-      "decimals": 9,
-      "chainId": 56,
-      "logoURI": "https://raw.githubusercontent.com/Ad-Market/mhd/master/media/Logo%20MHD%20Token.jpeg"
-    },
-    {
       "name": "Wrapped BNB",
       "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
       "symbol": "WBNB",
