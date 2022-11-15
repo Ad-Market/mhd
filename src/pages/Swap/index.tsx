@@ -489,7 +489,7 @@ export default function Swap() {
             ) : null}
           </BottomGrouping>
         </Wrapper>
-
+      </AppBody>
       <AdvancedSwapDetailsDropdown trade={trade} />
     </>
   )
